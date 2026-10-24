@@ -1,0 +1,75 @@
+{
+    "title": "Parking",
+    "notify": {
+        "not_loaded": "Your character isn't loaded yet.",
+        "inside_property": "You can't do that from inside a property.",
+        "busy": "Hold on, your last request is still going.",
+        "usage": "Usage: /%s buy, /%s park or /%s list",
+        "no_money": "You need $%s for that.",
+        "no_vehicles": "You don't own any vehicles yet.",
+        "spot_bought": "You bought this parking spot for $%s.",
+        "spot_moved": "Your parking spot moved here for $%s.",
+        "no_spot": "You don't have a parking spot yet. Use /%s buy first.",
+        "not_driving": "You need to be driving the vehicle you want to park.",
+        "too_far": "You're too far from your parking spot. It's marked on your map.",
+        "not_owner": "This vehicle isn't registered to you.",
+        "read_failed": "Couldn't read this vehicle, try again.",
+        "parked": "Vehicle parked.",
+        "not_parked": "That vehicle isn't parked.",
+        "in_use": "Someone is using that vehicle right now.",
+        "spot_blocked": "Something is blocking your parking spot.",
+        "spawn_failed": "The vehicle couldn't be spawned, try again.",
+        "type_blocked": "This kind of vehicle isn't allowed here.",
+        "taken_out": "Your vehicle is waiting at your spot.",
+        "impound_denied": "You aren't allowed to impound vehicles.",
+        "impound_none": "There's no vehicle next to you.",
+        "impound_occupied": "Someone is inside that vehicle.",
+        "impounded": "Vehicle impounded.",
+        "lot_far": "You need to be at an impound lot.",
+        "lot_in_vehicle": "Step out of your vehicle first.",
+        "lot_blocked": "Something is blocking the impound exit.",
+        "lot_empty": "You have nothing to recover here.",
+        "recovered": "Vehicle recovered for $%s.",
+        "admin_parked": "%s was returned to parking.",
+        "admin_not_found": "No registered vehicle with plate %s."
+    },
+    "menu": {
+        "impound": "Impound",
+        "take_out": "Take out",
+        "stored": "Parked",
+        "out": "Out, select to mark it on your map",
+        "lost": "Not found, recover it at an impound lot",
+        "impounded": "Impounded, recover it at an impound lot",
+        "held": "Held by another impound",
+        "in_use": "In use",
+        "recover": "Recover for $%s"
+    },
+    "prompt": {
+        "impound": "[E] Impound"
+    },
+    "progress": {
+        "impounding": "Impounding vehicle"
+    },
+    "target": {
+        "impound": "Impound vehicle"
+    },
+    "keybind": {
+        "impound": "Open impound lot"
+    },
+    "command": {
+        "parking": "Parking spot",
+        "parking_action": "buy, park or list",
+        "admin_park": "Return a vehicle to parking",
+        "admin_park_plate": "License plate",
+        "impound": "Impound the vehicle next to you"
+    },
+    "log": {
+        "bought": "Bought a parking spot",
+        "moved": "Moved their parking spot",
+        "parked": "Parked a vehicle",
+        "took_out": "Took a vehicle out of parking",
+        "recovered": "Recovered a vehicle from the impound",
+        "impounded": "Impounded a vehicle",
+        "admin_parked": "Admin returned a vehicle to parking"
+    }
+}
